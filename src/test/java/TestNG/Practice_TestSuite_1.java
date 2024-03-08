@@ -22,12 +22,12 @@ public class Practice_TestSuite_1 {
 			
 			
 			sa.assertAll();
-			System.out.println("--testscript_01--");
+			System.out.println("-regressionsuit-testscript_01--");
 		}
 		
 		@Test(groups="smokesuit")
 		public void testscript_02() {
-			System.out.println("--testscript_02--");
+			System.out.println("-smokesuit-testscript_02--");
 			System.out.println("--------------------------");
 		}
 	
