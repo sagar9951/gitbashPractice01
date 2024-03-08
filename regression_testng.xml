@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="regressionsuit"></include>
+		</run>
+	</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestNG.Practice_Data_provider2_test"/>
+      <class name="TestNG.PracticeTestNG_test"/>
+      <class name="TestNG.Practice_Data_Provider_test"/>
+      <class name="TestNG.Practice_TestSuite_1"/>
+      <class name="TestNG.Practice_TestSuite_2"/>
+      <class name="TestNG.Practice_TestSuite_3"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
